@@ -16,7 +16,7 @@ Key Features:
 PortXtract is ideal for penetration testers, network administrators, or anyone who needs a quick overview of open ports and services running on a machine. It simplifies manual scanning and ensures that the gathered data is presented in a clean, readable format.
 
 
-Usage
+#Usage
 
 
 PortXtract is simple to use and requires minimal setup. To extract open ports and services from a target, follow these steps:
@@ -28,7 +28,7 @@ The tool will prompt you to enter the target IP address or domain name.
 Please enter the target IP or domain: <target_ip_or_domain>
 
 
-*Example Output:
+*Example Output
 
 Open ports and services on <target_ip_or_domain>:
 ------------------------------------
