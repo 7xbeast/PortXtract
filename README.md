@@ -16,30 +16,38 @@ Key Features:
 PortXtract is ideal for penetration testers, network administrators, or anyone who needs a quick overview of open ports and services running on a machine. It simplifies manual scanning and ensures that the gathered data is presented in a clean, readable format.
 
 
-#Usage
+**Usage**
 
 
 PortXtract is simple to use and requires minimal setup. To extract open ports and services from a target, follow these steps:
 
-*Run the Script:
+
+1.Run the Script:
 Open a terminal and execute the script : ./portxtract.sh
-*Input the Target:
+
+
+2.Input the Target:
 The tool will prompt you to enter the target IP address or domain name. 
 Please enter the target IP or domain: <target_ip_or_domain>
 
 
-*Example Output
+Example Output
 
-Open ports and services on <target_ip_or_domain>:
-------------------------------------
+Open ports and services on example.com
+
+
 22 ssh
+
+
 80 http
+
+
 443 https
 
-*Save Results to File:
-The tool will save the scan results to a file named:
 
-open_ports_services_<target_ip_or_domain>.txt
+Save Results to File:  The tool will save the scan results to a file named  "open_ports_services_<target_ip_or_domain>.txt"
+
+
 You can review and reference this file for further analysis or documentation.
 
 Note: Make sure you have appropriate permissions and authorization before scanning any external systems.
